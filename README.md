@@ -9,16 +9,20 @@ Entregable-1-Marcos-Morua
 ├── app
 |   |
 │   ├── modules
-|   |   └── ProductManager.js # Clase para gestionar productos
+|   |   └── CartManager.js      # Clase para gestionar los carritos
+|   |   └── ProductManager.js   # Clase para gestionar productos
 │   │
 │   ├── routes
-│   │   └── products.js       # Rutas relacionadas con productos
+|   |   └── cart.js             # Rutas relacionadas con el carrito
+│   │   └── products.js         # Rutas relacionadas con productos
 │   └── data
-│       └── products.json     # Archivo JSON para persistencia de productos
+|       └── cart.json           # Archivo JSON para el carrito
+│       └── products.json       # Archivo JSON para los productos
 |
-├── index.js                  # Punto de entrada de la aplicación
-├── package.json              # Configuración de npm
-└── README.md                 # Documentación del proyecto
+├── Backend 1 - Marcos Morua    # JSON exportado de Postman
+├── app.js                      # Punto de entrada de la aplicación
+├── package.json                # Configuración de npm
+└── README.md                   # Documentación del proyecto
 ```
 
 ## Uso
